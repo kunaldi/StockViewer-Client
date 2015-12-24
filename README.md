@@ -2,7 +2,7 @@
 
 Sample abstract Ember CLI app for fetching and displaying stock market history.
 
-(https://github.com/kunaldi/StockViewer-Client/blob/master/public/screenshot.png)
+![Screenshot](https://github.com/kunaldi/StockViewer-Client/blob/master/public/screenshot.png)
 
 ## Prerequisites
 
