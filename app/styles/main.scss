@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #aaa;
+}
+
+section {
+  padding-top: 30px;
+}
+
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.container {
+  border: 1px solid #666;
+  background-color: white;
+  min-height: 800px;
+  margin-top: 50px;
+}
+
+.sv-app {
+}
+
+#chart-area {
+  min-height: 500px;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background: #fff;
+  text-align: center;
+}
+
+#chart-wrapper {
+  min-height: 500px;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background: #fff;
+  text-align: center;
+}

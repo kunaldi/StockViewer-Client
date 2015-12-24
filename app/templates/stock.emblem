@@ -1,0 +1,21 @@
+section
+  = input id="search_stock" value=stockName placeholder="Type a company name for stock history lookup." rows="3" class="form-control input-lg" autofocus="true"
+
+if stocks
+  section
+    table.table.table-stripped
+      thead
+        tr
+          th Symbol
+          th Name
+          th Sector
+          th Industry
+      tbody
+        each stocks as |stock|
+          tr
+            td = link-to stock.symb 'stock.show' stock.symb
+            td = stock.name
+            td = stock.sector
+            td = stock.industry
+
+= outlet

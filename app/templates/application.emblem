@@ -1,0 +1,4 @@
+.container role="main"
+  .content#sv-app
+    h2#title StockViewer App
+    = outlet

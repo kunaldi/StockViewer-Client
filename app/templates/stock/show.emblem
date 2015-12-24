@@ -1,0 +1,7 @@
+if history
+  section
+    h3.text-center History data of #{model.symb}
+
+    = stock-chart history_data=history
+
+= outlet
